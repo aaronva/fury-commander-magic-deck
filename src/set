@@ -683,18 +683,19 @@ card:
 		AV: Changed 2/2 to 1/1 flying on suggestion from OT 
 		CD: Ultron is solid. maybe lower cmc by 1 and sacrifice anytime there are no artifacts? I like the flavor that machines need to exist before ultron can even start up. up to you.
 		AV: Added tweaks that were decided upon with OT and HT.
+		AV: Trying new version agreed upon with CD
 	time created: 2015-09-29 23:30:15
 	time modified: 2016-01-15 16:50:29
 	name: Ultron
-	casting cost: 2UUBBRR
+	casting cost: 1UBR
 	image: image24
 	super type: <word-list-type>Legendary Enchantment</word-list-type>
 	sub type: <word-list-enchantment>AI</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
 	rarity: rare
 	rule text:
 		<kw-0><nospellcheck>Indestructible</nospellcheck></kw-0>
-		When there are no artifacts on the battlefield, sacrifice <atom-legname><nospellcheck>Ultron</nospellcheck></atom-legname>.
-		At the end of your turn, put a 1/1 Sentinel artifact creature tokens with <kw-a><nospellcheck>flying</nospellcheck></kw-a> onto the battlefield for each artifact you control.
+		When you control no artifacts, sacrifice <atom-legname><nospellcheck>Ultron</nospellcheck></atom-legname>.
+		Artifacts you control have "<sym-auto>T</sym-auto>: Put a 1/1 Sentinel artifact creature token with <kw-a><nospellcheck>flying</nospellcheck></kw-a> onto the battlefield."
 	flavor text: <i-flavor></i-flavor>
 	power: 
 	toughness: 
@@ -715,7 +716,7 @@ card:
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
-		<sym-auto>BR</sym-auto>, <sym-auto>T</sym-auto>: Exile two artifacts from your graveyard: Reveal cards from the top of your library until you reveal an artifact card. Put that card into your hand.
+		<sym-auto>BR</sym-auto>, <sym-auto>T</sym-auto>, Exile two artifacts from your graveyard: Reveal cards from the top of your library until you reveal an artifact card. Put that card into your hand.
 	flavor text: <i-flavor></i-flavor>
 	power: 1
 	toughness: 2
@@ -870,7 +871,7 @@ card:
 	super type: <word-list-type>Sorcery</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rarity: rare
-	rule text: Return each Legendary creature from all graveyards and command zones to the battlefield.
+	rule text: Return each Legendary creature from all graveyards and command zones to the battlefield under their owner's control.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -1650,7 +1651,7 @@ card:
 	rule text:
 		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
 		Enchanted creature cannot attack you or a planeswalker you control.
-		Enchanted creature must attach each turn if able.
+		Enchanted creature must attack each turn if able.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
