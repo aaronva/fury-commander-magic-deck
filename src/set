@@ -2,7 +2,7 @@
 game: magic
 stylesheet: m15
 set info:
-	set code: MVC
+	set code: MCU
 	set language: English
 	symbol: symbol5.mse-symbol
 	border color: rgb(0,0,0)
@@ -480,10 +480,10 @@ card:
 		CD: I like Cap.
 		AV: Still feel like there are too many T: Deal damage effects. Looking for another logical red tap ability for Cap
 	time created: 2015-09-28 22:15:18
-	time modified: 2015-10-12 22:34:40
+	time modified: 2017-04-23 12:19:17
 	card color: white
 	name: Captain America, the First Avenger
-	casting cost: 4W
+	casting cost: 3W
 	image: image4
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
@@ -557,17 +557,17 @@ card:
 		CD: not sure why Rhodey rather than "war machine" given you've done everyone else by hero name.
 		AV: Changed name to "Rhodey, the War Machine"
 	time created: 2015-09-29 23:10:21
-	time modified: 2017-04-17 08:41:26
+	time modified: 2017-04-23 12:53:14
 	name: James Rhodes
-	casting cost: 1WW
+	casting cost: 2W
 	image: image3
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		When <atom-legname><nospellcheck>James Rhodes</nospellcheck></atom-legname> enters the battlefield, you may attach target equipment to him.
-		<atom-legname><nospellcheck>James Rhodes</nospellcheck></atom-legname> gets +1/+1 and has <kw-a><nospellcheck>first strike</nospellcheck></kw-a> while he is equipped.
-	flavor text: <i-flavor></i-flavor>
+		<kw-A><nospellcheck>Sidekick</nospellcheck><atom-reminder-custom> <i-auto>(Whenever your commander attacks, block, or activates an ability, that creature and James Rhodes get +2/+2 until end of turn.)</i-auto></atom-reminder-custom></kw-A>
+		<atom-legname><nospellcheck>James Rhodes</nospellcheck></atom-legname> and commander creatures you control have <kw-a><nospellcheck>double strike</nospellcheck></kw-a> while <atom-legname><nospellcheck>James Rhodes</nospellcheck></atom-legname> is equipped.
+	flavor text: <i-flavor>Filler flavor text</i-flavor>
 	power: 2
 	toughness: 2
 	card code text: 
@@ -597,18 +597,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2015-09-29 23:15:48
-	time modified: 2017-04-21 17:51:24
-	name: Falcon
+	time modified: 2017-04-23 12:24:00
+	name: Falcon 2
 	casting cost: 1WW
 	image: image2
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		Sidekick
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
-		When <atom-legname><nospellcheck>Falcon</nospellcheck></atom-legname> attacks, target creature you control gains <kw-a><nospellcheck>flying</nospellcheck></kw-a> until the end of turn.
-	flavor text: <i-flavor>Filler flavor test</i-flavor>
+		<kw-A><nospellcheck>Sidekick</nospellcheck><atom-reminder-custom> <i-auto>(Whenever your commander attacks, block, or activates an ability, that creature and Falcon 2 get +2/+2 until end of turn.)</i-auto></atom-reminder-custom></kw-A> — Commander creatures you control have <kw-a><nospellcheck>flying</nospellcheck></kw-a> and get +2/+2.
+	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 2
 	card code text: 
@@ -1631,26 +1630,6 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2017-04-17 12:08:08
-	time modified: 2017-04-23 00:28:34
-	name: Promotion
-	casting cost: 1W
-	image: 
-	super type: <word-list-type>Enchantment</word-list-type>
-	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
-	rarity: rare
-	rule text:
-		<kw-a><nospellcheck>Enchant <param-name>legendary creature</param-name></nospellcheck></kw-a>
-		Enchanted creature has +1/+1.
-		When enchanted creature dies, you may put it into the command zone. You may cast it for as long as it is in the command zone and it costs <sym>2</sym> extra.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
 	time created: 2017-04-17 12:13:06
 	time modified: 2017-04-23 00:29:19
 	name: HERO MURDER
@@ -1945,9 +1924,9 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-04-23 00:26:19
-	time modified: 2017-04-23 00:26:49
+	time modified: 2017-04-23 12:03:57
 	name: Go for the Throat
-	casting cost: I1SB
+	casting cost: 1B
 	image: 
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
@@ -2047,6 +2026,103 @@ card:
 	copyright: 
 	image 2: 
 	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-04-23 12:09:42
+	time modified: 2017-04-23 12:09:59
+	name: Hero’s Demise
+	casting cost: 1B
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: rare
+	rule text: Destroy target legendary creature.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-04-23 12:11:46
+	time modified: 2017-04-23 13:08:52
+	name: Heroic Intervention
+	casting cost: 1G
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Permanents you control gain <kw-a><nospellcheck>hexproof</nospellcheck></kw-a> and <kw-a><nospellcheck>indestructible</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-04-23 12:17:03
+	time modified: 2017-04-23 12:39:28
+	name: Phil Coulson
+	casting cost: 3W
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Advisor</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text:
+		<kw-A><nospellcheck>Sidekick</nospellcheck><atom-reminder-custom> <i-auto>(Whenever your commander attacks, block, or activates an ability, that creature and Phil <error-spelling:en_us:/magic.mse-game/magic-words>Coulson</error-spelling:en_us:/magic.mse-game/magic-words> get +2/+2 until end of turn.)</i-auto></atom-reminder-custom></kw-A>
+		<sym-auto>1W</sym-auto>, <sym-auto>T</sym-auto>: Creatures you control get +X/+X until end of turn, where X is <atom-legname><nospellcheck>Phil <error-spelling:en_us:/magic.mse-game/magic-words>Coulson</nospellcheck></atom-legname>’s</error-spelling:en_us:/magic.mse-game/magic-words> power.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2015-09-29 23:15:48
+	time modified: 2017-04-23 12:53:49
+	name: Falcon
+	casting cost: 3R
+	image: image26
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text:
+		<kw-A><nospellcheck>Sidekick</nospellcheck><atom-reminder-custom> <i-auto>(Whenever your commander attacks, block, or activates an ability, that creature and Falcon get +2/+2 until end of turn.)</i-auto></atom-reminder-custom></kw-A>
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		When <atom-legname><nospellcheck>Falcon</nospellcheck></atom-legname> attacks or blocks, up to X target creatures gain <kw-a><nospellcheck>first strike</nospellcheck></kw-a> until end of turn, where X is <atom-legname><nospellcheck>Falcon</nospellcheck></atom-legname>’s power.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-04-23 12:59:55
+	time modified: 2017-04-23 13:04:01
+	name: Wong, Master of the Mystic Arts
+	casting cost: 3G
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: rare
+	rule text:
+		<kw-A><nospellcheck>Sidekick</nospellcheck><atom-reminder-custom> <i-auto>(Whenever your commander attacks, block, or activates an ability, that creature and Wong, Master of the Mystic Arts get +2/+2 until end of turn.)</i-auto></atom-reminder-custom></kw-A>
+		<sym-auto>1G</sym-auto>, <sym-auto>T</sym-auto>: Prevent the next X damage that would be dealt to target creature, where X is <atom-legname><nospellcheck>Wong</nospellcheck></atom-legname>’s power.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
 keyword:
 	keyword: Worthy
 	match: Worthy
@@ -2105,6 +2181,18 @@ keyword:
 	keyword: Sidekick
 	match: Sidekick10.1
 	reminder: As this creature enters the battlefield, it gains a keyword ability on another Legendary creature you control. Indestructible, flying, and deathtouch are some keyword abilities.
+	rules: 
+	mode: custom
+keyword:
+	keyword: Sidekick
+	match: Sidekick11
+	reminder: 
+	rules: Your commander gets a bonus effect
+	mode: pseudo
+keyword:
+	keyword: Sidekick
+	match: Sidekick
+	reminder: Whenever your commander attacks, block, or activates an ability, that creature and {card.name} get +2/+2 until end of turn.
 	rules: 
 	mode: custom
 version control:
