@@ -294,7 +294,7 @@ card:
 		CD: Hawkeye works as is but I would think it cool if he had a choose 1 ability or something affecting any attacking or blocking cause as he is now he will only ever rattlesnake to deter attacks and never activate the ability.
 		AV: Is there another way to signify archery?
 	time created: 2015-09-28 21:38:55
-	time modified: 2016-01-15 18:00:10
+	time modified: 2017-04-24 16:12:21
 	name: Hawkeye
 	casting cost: 1GW
 	image: image19
@@ -303,10 +303,9 @@ card:
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Reach</nospellcheck></kw-a>
-		<sym-auto>T</sym-auto>: Choose one —
-		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Target creature loses <kw-a><nospellcheck>flying</nospellcheck></kw-a> until end of turn.
-		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Deal 2 damage to target attacking or blocking creature
-		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words><error-spelling> </error-spelling>
+		<sym-auto>T</sym-auto>: Target creature loses <kw-a><nospellcheck>flying</nospellcheck></kw-a> until end of turn.
+		<sym-auto>T</sym-auto>: Deal 2 damage to target attacking or blocking creature
+		<sym-auto>T</sym-auto>: Exile <atom-legname><nospellcheck>Hawkeye</nospellcheck></atom-legname> then return him to the battlefield.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 3
@@ -395,9 +394,9 @@ card:
 	has styling: false
 	notes: 
 	time created: 2015-09-28 21:58:46
-	time modified: 2015-11-16 20:59:33
+	time modified: 2017-04-24 16:06:05
 	name: Clean Slate Protocol
-	casting cost: 3R
+	casting cost: 4R
 	image: 
 	super type: <word-list-type>Sorcery</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
@@ -526,7 +525,7 @@ card:
 		CD: not sure Im feeling the prowess on ant man. weird to go "youke it have 0 power, I target it with a spell, you then have to reply with your spell and weaken him again before hes unblockable" just feels weird.
 		AV: Ant-man was complicated for what he provides. Trying intermediate design to hopefully spark new ideas.
 	time created: 2015-09-28 22:22:16
-	time modified: 2017-04-23 16:02:56
+	time modified: 2017-04-24 16:08:17
 	card color: blue, red, multicolor, horizontal
 	name: Scott Lang, the Ant Man
 	casting cost: 1UR
@@ -537,8 +536,8 @@ card:
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>First strike</nospellcheck></kw-a>
-		<sym-auto>2</sym-auto>: <atom-legname><nospellcheck>Scott Lang</nospellcheck></atom-legname> gets -2/-2 and cannot be blocked until the end of turn.
-		If <atom-legname><nospellcheck>Scott Lang</nospellcheck></atom-legname> deals no during the combat damage step, you may draw a card.
+		<sym-auto>1U/R</sym-auto>: <atom-legname><nospellcheck>Scott Lang</nospellcheck></atom-legname> gets -2/-2 and cannot be blocked until the end of turn.
+		If <atom-legname><nospellcheck>Scott Lang</nospellcheck></atom-legname> is attacking and deals no during your combat damage step, you may draw a card.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 3
@@ -554,20 +553,21 @@ card:
 		AV: Tried new design
 		AV: Scrapped previous design. Now he’s boring and destroys artifacts & enchantments...
 	time created: 2015-09-29 23:01:46
-	time modified: 2017-04-23 16:03:54
+	time modified: 2017-04-24 16:32:31
 	name: Vision
-	casting cost: 1GWU
+	casting cost: 2GWU
 	image: image13
 	super type: <word-list-type>Legendary Artifact Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>AI</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-0><nospellcheck>Flying</nospellcheck></kw-0>, <kw-a><nospellcheck>Vigilance</nospellcheck></kw-a><error-spelling>
-		</error-spelling>
-	flavor text: <i-flavor></i-flavor>
+		<kw-0><nospellcheck>Flying</nospellcheck></kw-0>, <kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>
+		At the beginning of your upkeep, you gain 1 life for each untapped creature.
+		Creatures can’t attack you or planeswalkers you control unless their controller pays <sym>1</sym> for each creature he or she controls that’s attacking you.
+	flavor text: <i-flavor>Filler flavor text</i-flavor>
 	watermark: none
-	power: 3
-	toughness: 5
+	power: 4
+	toughness: 4
 	card code text: 
 	illustrator: Avengers:Age of Ultron
 	copyright: 
@@ -687,7 +687,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2015-09-29 23:36:20
-	time modified: 2017-04-23 16:02:49
+	time modified: 2017-04-24 16:07:04
 	name: Rocket, Implusive Engineer
 	casting cost: 1BR
 	image: image23
@@ -696,8 +696,9 @@ card:
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
-		<sym-auto>BR</sym-auto>, <sym-auto>T</sym-auto>, Exile two artifacts from your graveyard: Reveal cards from the top of your library until you reveal an artifact card. Put that card into your hand.
-	flavor text: <i-flavor></i-flavor>
+		<sym-auto>1R</sym-auto>, <sym-auto>T</sym-auto>: Sacrifice an artifact you control: Rocket deals 5 damage to target creature or player.
+		<sym-auto>1B</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice two artifacts you control: Return target artifact card in your graveyard to the battlefield tapped.
+	flavor text: <i-flavor>Filler flavor text</i-flavor>
 	power: 1
 	toughness: 2
 	card code text: 
@@ -1465,16 +1466,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2015-11-11 22:58:32
-	time modified: 2017-04-23 16:01:57
+	time modified: 2017-04-24 16:00:48
 	name: Motivating Speech
-	casting cost: 3RW
+	casting cost: 2RW
 	image: image37
-	super type: <word-list-type>Sorcery</word-list-type>
+	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
 	rule text:
-		If a creature you control died this turn, you may cast <atom-cardname><nospellcheck>Motivating Speech</nospellcheck></atom-cardname> as if it had <kw-a><nospellcheck>flash</nospellcheck></kw-a>.
-		Creatures you control gain +3/+1 and <kw-a><nospellcheck>indestructible</nospellcheck></kw-a> until end of turn.
+		Creatures you control get +3/+1 until end of turn.
+		If a legendary creature you control died since the end of your last turn, creatures you control gain <kw-a><nospellcheck>indestructible</nospellcheck></kw-a> until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	illustrator: The Avengers
@@ -1768,12 +1769,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-04-23 00:17:55
-	time modified: 2017-04-23 00:18:27
+	time modified: 2017-04-24 16:12:42
 	name: Knight of the Reliquary
 	casting cost: 1GW
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
 	rule text:
 		Knight of the Reliquary gets +1/+1 for each land card in your graveyard.
 		<sym-auto>T</sym-auto>, Sacrifice a Forest or Plains: Search your library for a land card, put it onto the battlefield, then shuffle your library.
