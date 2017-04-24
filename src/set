@@ -553,7 +553,7 @@ card:
 		AV: Tried new design
 		AV: Scrapped previous design. Now he’s boring and destroys artifacts & enchantments...
 	time created: 2015-09-29 23:01:46
-	time modified: 2017-04-24 16:32:31
+	time modified: 2017-04-24 16:34:45
 	name: Vision
 	casting cost: 2GWU
 	image: image13
@@ -562,9 +562,9 @@ card:
 	rarity: rare
 	rule text:
 		<kw-0><nospellcheck>Flying</nospellcheck></kw-0>, <kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>
-		At the beginning of your upkeep, you gain 1 life for each untapped creature.
+		At the beginning of your upkeep, you gain 1 life for each untapped creature you don’t control.
 		Creatures can’t attack you or planeswalkers you control unless their controller pays <sym>1</sym> for each creature he or she controls that’s attacking you.
-	flavor text: <i-flavor>Filler flavor text</i-flavor>
+	flavor text: <i-flavor></i-flavor>
 	watermark: none
 	power: 4
 	toughness: 4
