@@ -109,7 +109,7 @@ card:
 		CD: Also don't think the prowess Is needed here either given the strong equipment flavor but I’d say it matches the character.
 		AV: Removed prowess
 	time created: 2015-09-28 21:10:20
-	time modified: 2016-01-15 17:35:30
+	time modified: 2017-04-27 16:00:49
 	card color: multicolor
 	name: Tony Stark, Genius Inventor
 	casting cost: 1RWU
@@ -124,7 +124,7 @@ card:
 	power: 1
 	toughness: 2
 	card code text: 
-	illustrator: 
+	illustrator: Iron Man 3
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -156,7 +156,7 @@ card:
 		AV: New penalty for not attacking (instead of attacks each turn if able).
 		AV: 10/9 —> 8/7 for flavour reasons.
 	time created: 2015-09-28 21:18:38
-	time modified: 2017-04-22 13:33:26
+	time modified: 2017-04-27 15:57:00
 	name: Bruce Banner
 	casting cost: 3GGU
 	image: image6
@@ -170,6 +170,7 @@ card:
 	power: 1
 	toughness: 2
 	card code text: 
+	illustrator: the Avengers
 	copyright: 
 	card color 2: red, green, multicolor, horizontal
 	name 2: The Hulk
@@ -179,10 +180,11 @@ card:
 	sub type 2: <word-list-race>Beast</word-list-race> <word-list-class>Mutant</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text 2:
 		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>, <kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
-		At the end of your turn, if the Hulk didn’t attack, he deals damage equal to his power to you and then transform him.
+		At the end of your turn, if the Hulk didn’t attack or transform this turn, he deals damage equal to his power to you, then transform him.
 	flavor text 2: <i-flavor></i-flavor>
 	power 2: 8
 	toughness 2: 6
+	illustrator 2: The Avengers
 	copyright 2: 
 card:
 	has styling: false
@@ -271,7 +273,7 @@ card:
 		AV: Tried new tweak. I’ll have to try and see how grokable the card is now. Might need to add flavour text first.
 		AV: I feel like there may be rules issues with this card.
 	time created: 2015-09-28 21:35:04
-	time modified: 2017-04-22 13:32:50
+	time modified: 2017-04-27 16:08:17
 	name: Black Widow
 	casting cost: 1WB
 	image: image5
@@ -285,6 +287,7 @@ card:
 	power: 2
 	toughness: 3
 	card code text: 
+	illustrator: The Avengers
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -294,7 +297,7 @@ card:
 		CD: Hawkeye works as is but I would think it cool if he had a choose 1 ability or something affecting any attacking or blocking cause as he is now he will only ever rattlesnake to deter attacks and never activate the ability.
 		AV: Is there another way to signify archery?
 	time created: 2015-09-28 21:38:55
-	time modified: 2017-04-24 16:12:21
+	time modified: 2017-04-27 15:59:54
 	name: Hawkeye
 	casting cost: 1GW
 	image: image19
@@ -310,6 +313,7 @@ card:
 	power: 2
 	toughness: 3
 	card code text: 
+	illustrator: The Avengers
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -317,7 +321,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2015-09-28 21:40:47
-	time modified: 2017-04-21 16:11:01
+	time modified: 2017-04-27 16:01:49
 	name: Thor, God of Thunder
 	casting cost: 2RW
 	indicator: colorless
@@ -328,11 +332,12 @@ card:
 	rule text:
 		<kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>, <kw-a><nospellcheck>Vigilance</nospellcheck></kw-a>
 		<sym-auto>1W</sym-auto>: You may attach target equipment you control named “<error-spelling:en_us:/magic.mse-game/magic-words>Mjölnir</error-spelling:en_us:/magic.mse-game/magic-words>” to <atom-legname><nospellcheck>Thor</nospellcheck></atom-legname>.
-		<sym-auto>R</sym-auto>, <sym-auto>T</sym-auto>, Unattach an equipment named “<error-spelling:en_us:/magic.mse-game/magic-words>Mjölnir</error-spelling:en_us:/magic.mse-game/magic-words>” attached to <atom-legname><nospellcheck>Thor</nospellcheck></atom-legname>: <atom-legname><nospellcheck>Thor</nospellcheck></atom-legname> deals 3 damage to target creature or player.
+		<sym-auto>R</sym-auto>, <sym-auto>T</sym-auto>, Unattach an equipment named “<error-spelling:en_us:/magic.mse-game/magic-words>Mjölnir</error-spelling:en_us:/magic.mse-game/magic-words>” attached to <atom-legname><nospellcheck>Thor</nospellcheck></atom-legname>: He deals 3 damage to target creature or player.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 2
 	card code text: 
+	illustrator: Thor: The Dark World
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -358,10 +363,10 @@ card:
 	has styling: false
 	notes: AV: I’d like to tie the flavour into Coulson’s revival if possible.
 	time created: 2015-09-28 21:50:34
-	time modified: 2015-10-12 23:55:46
+	time modified: 2017-04-25 13:41:36
 	name: Loyal Retainers
 	casting cost: 2W
-	image: 
+	image: image41
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Advisor</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: common
@@ -370,6 +375,7 @@ card:
 	power: 1
 	toughness: 1
 	card code text: 
+	illustrator: Agents of S.H.I.E.L.D.
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -394,16 +400,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2015-09-28 21:58:46
-	time modified: 2017-04-24 16:06:05
+	time modified: 2017-04-25 13:06:45
 	name: Clean Slate Protocol
 	casting cost: 4R
-	image: 
+	image: image2
 	super type: <word-list-type>Sorcery</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
 	rule text: Each player sacrifices all artifacts he or she controls.
 	flavor text: <i-flavor>“All wrapped up here, sir. Will there be anything else?” — Jarvis</i-flavor>
 	card code text: 
+	illustrator: Iron Man 3
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -411,7 +418,7 @@ card:
 	has styling: false
 	notes: AV: I’d like some third ability that synergises well with comanders.
 	time created: 2015-09-28 21:59:34
-	time modified: 2017-04-17 08:40:23
+	time modified: 2017-04-26 16:48:20
 	card color: land, multicolor
 	name: LEGEND LAND
 	indicator: colorless
@@ -422,7 +429,7 @@ card:
 	rule text:
 		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto> to your mana pool.
 		<sym-auto>T</sym-auto>: Add a mana of any color to your mana pool. Spend this mana only to cast legendary spells.
-		<sym-auto>2</sym-auto>, <sym-auto>T</sym-auto>: Target legendary permanent gains <kw-a><nospellcheck>hexproof</nospellcheck></kw-a> until end of turn.
+		<sym-auto>2</sym-auto>, <sym-auto>T</sym-auto>: Put a +1/+1 counter on target legendary creature.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -432,7 +439,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2015-09-28 22:00:47
-	time modified: 2017-04-23 16:04:02
+	time modified: 2017-04-25 17:10:52
 	name: Arc Reactor
 	casting cost: 3
 	image: image28
@@ -525,7 +532,7 @@ card:
 		CD: not sure Im feeling the prowess on ant man. weird to go "youke it have 0 power, I target it with a spell, you then have to reply with your spell and weaken him again before hes unblockable" just feels weird.
 		AV: Ant-man was complicated for what he provides. Trying intermediate design to hopefully spark new ideas.
 	time created: 2015-09-28 22:22:16
-	time modified: 2017-04-24 16:08:17
+	time modified: 2017-04-27 15:51:03
 	card color: blue, red, multicolor, horizontal
 	name: Scott Lang, the Ant Man
 	casting cost: 1UR
@@ -535,9 +542,9 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Rogue</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-a><nospellcheck>First strike</nospellcheck></kw-a>
-		<sym-auto>1U/R</sym-auto>: <atom-legname><nospellcheck>Scott Lang</nospellcheck></atom-legname> gets -2/-2 and cannot be blocked until the end of turn.
-		If <atom-legname><nospellcheck>Scott Lang</nospellcheck></atom-legname> is attacking and deals no during your combat damage step, you may draw a card.
+		<kw-a><nospellcheck>Prowess</nospellcheck></kw-a>
+		When <atom-legname><nospellcheck>Scott Lang</nospellcheck></atom-legname> deals combat damage to a player, you may draw a card.
+		<sym-auto>U/R</sym-auto>: <atom-legname><nospellcheck>Scott Lang</nospellcheck></atom-legname> gets -1/-1 and has your choice of <kw-a><nospellcheck>first strike</nospellcheck></kw-a>, <kw-a><nospellcheck>flying</nospellcheck></kw-a>, or <kw-a><nospellcheck>hexproof</nospellcheck></kw-a> until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 3
@@ -639,7 +646,7 @@ card:
 		AV: Added "until leaves battlefield" condition
 		AV: Felt off and too hard to develop. Trying new design.
 	time created: 2015-09-29 23:28:56
-	time modified: 2017-04-17 08:42:12
+	time modified: 2017-04-27 16:04:14
 	name: Loki, God of Mischief
 	casting cost: 2UB
 	image: image15
@@ -647,12 +654,13 @@ card:
 	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<sym-auto>2U/B</sym-auto>: Put a 1/1 blue and black God Illusion creature token onto the battlefield.
+		<sym-auto>1U/B</sym-auto>: Put a 1/1 blue and black God Illusion creature token onto the battlefield.
 		Whenever <atom-legname><nospellcheck>Loki</nospellcheck></atom-legname> becomes the target of a spell or ability, you may change that target to an illusion creature you control.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 5
 	card code text: 
+	illustrator: Thor: The Dark World
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -664,7 +672,7 @@ card:
 		AV: Added tweaks that were decided upon with OT and HT.
 		AV: Trying new version agreed upon with CD
 	time created: 2015-09-29 23:30:15
-	time modified: 2017-04-23 16:03:44
+	time modified: 2017-04-26 17:21:31
 	name: Ultron
 	casting cost: 1UBR
 	image: image24
@@ -674,7 +682,7 @@ card:
 	rule text:
 		<kw-0><nospellcheck>Indestructible</nospellcheck></kw-0>
 		When you control no artifacts, sacrifice <atom-legname><nospellcheck>Ultron</nospellcheck></atom-legname>.
-		Artifacts you control have “<sym-auto>T</sym-auto>: Put a 1/1 Sentinel artifact creature token with <kw-a><nospellcheck>flying</nospellcheck></kw-a> onto the battlefield.”
+		At the beginning of your upkeep you may tap any number of artifacts you control. Create a 1/1 Sentinel artifact creature token with <kw-a><nospellcheck>flying</nospellcheck></kw-a> for each artifact tapped this way.
 	flavor text: <i-flavor></i-flavor>
 	power: 
 	toughness: 
@@ -687,7 +695,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2015-09-29 23:36:20
-	time modified: 2017-04-24 16:07:04
+	time modified: 2017-04-27 15:39:49
 	name: Rocket, Implusive Engineer
 	casting cost: 1BR
 	image: image23
@@ -696,9 +704,9 @@ card:
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
-		<sym-auto>1R</sym-auto>, <sym-auto>T</sym-auto>: Sacrifice an artifact you control: Rocket deals 5 damage to target creature or player.
 		<sym-auto>1B</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice two artifacts you control: Return target artifact card in your graveyard to the battlefield tapped.
-	flavor text: <i-flavor>Filler flavor text</i-flavor>
+		<sym-auto>1R</sym-auto>, <sym-auto>T</sym-auto>: Sacrifice an artifact you control: Rocket deals 5 damage to target creature or player.
+	flavor text: <i-flavor></i-flavor>
 	power: 1
 	toughness: 2
 	card code text: 
@@ -710,7 +718,7 @@ card:
 	has styling: false
 	notes: CD: Groot feels weak for the cost.
 	time created: 2015-09-29 23:44:15
-	time modified: 2017-04-17 09:43:09
+	time modified: 2017-04-27 15:56:23
 	name: Groot
 	casting cost: 3GG
 	image: image12
@@ -725,6 +733,7 @@ card:
 	power: 0
 	toughness: 1
 	card code text: 
+	illustrator: Guardians of the Galaxy
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -734,7 +743,7 @@ card:
 		OT: She should scry.
 		CD: I like the witch
 	time created: 2015-09-29 23:48:48
-	time modified: 2015-11-16 20:59:40
+	time modified: 2017-04-27 15:56:36
 	name: Scarlet Witch
 	casting cost: 2RR
 	image: image11
@@ -748,6 +757,7 @@ card:
 	power: 3
 	toughness: 3
 	card code text: 
+	illustrator: Avengers: Age of Ultron
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -757,7 +767,7 @@ card:
 		CD: Really like it. well done on this one.
 		AV: Still not sure about the color(s). Certainly should be blue, but I don’t know between red and white. Leaning a bit towards white for deckbuilding reasons, red for feel / character.
 	time created: 2015-09-29 23:54:42
-	time modified: 2017-04-23 16:01:44
+	time modified: 2017-04-27 15:56:46
 	name: Hank Pym, Retired Hero
 	casting cost: 1UR
 	image: image14
@@ -779,7 +789,7 @@ card:
 	has styling: false
 	notes: AV: If I’m going with blue Legends the cycle is kinda broken
 	time created: 2015-10-04 22:34:45
-	time modified: 2017-04-23 15:48:49
+	time modified: 2017-04-25 13:12:11
 	name: Shield Researcher
 	casting cost: 2U
 	image: image42
@@ -793,7 +803,7 @@ card:
 	power: 2
 	toughness: 3
 	card code text: 
-	illustrator: Marvel’s Agents of SHIELD
+	illustrator: Agents of S.H.I.E.L.D.
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -998,7 +1008,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2015-10-08 12:55:32
-	time modified: 2017-04-22 23:17:59
+	time modified: 2017-04-25 14:14:54
 	name: Punish the Leaderless
 	casting cost: 4B
 	image: 
@@ -1103,42 +1113,9 @@ card:
 	copyright 2: 
 card:
 	has styling: false
-	notes: <soft-line>AV: </soft-line>This can go
-	time created: 2015-10-12 23:00:12
-	time modified: 2015-10-12 23:55:56
-	name: Allied Strategies
-	casting cost: 4U
-	image: 
-	super type: <word-list-type>Sorcery</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rarity: common
-	rule text: <kw-A><i-auto><nospellcheck>Domain</nospellcheck></i-auto></kw-A> — Target player draws a card for each basic land type among lands he or she controls.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-10-12 23:01:05
-	time modified: 2015-11-11 20:19:08
-	name: Collective Restraint
-	casting cost: 3U
-	image: 
-	super type: <word-list-type>Enchantment</word-list-type>
-	sub type: <word-list-enchantment></word-list-enchantment>
-	rule text: <kw-A><i-auto><nospellcheck>Domain</nospellcheck></i-auto></kw-A> — Creatures can’t attack you unless their controller pays <sym>X</sym> for each creature he or she controls that’s attacking you, where X is the number of basic land types amount lands you control.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
 	notes: 
 	time created: 2015-10-12 23:43:06
-	time modified: 2017-04-23 00:29:05
+	time modified: 2017-04-25 13:02:20
 	name: Dismiss the Leaderless
 	casting cost: 3UU
 	image: 
@@ -1146,24 +1123,9 @@ card:
 	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
 	rule text:
-		You may cast <atom-cardname><nospellcheck>Dismiss the Leaderless</nospellcheck></atom-cardname> for <sym>1U</sym> if it targets a spell whose controller controls no legendary creatures.
+		You may cast <atom-cardname><nospellcheck>Dismiss the Leaderless</nospellcheck></atom-cardname> for <sym>1U</sym> if it targets a spell whose controller controls no legendary permanents.
 		Draw a card.
 		Counter target <error-spelling:en_us:/magic.mse-game/magic-words>nonlegendary</error-spelling:en_us:/magic.mse-game/magic-words> spell.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-10-13 00:09:14
-	time modified: 2015-10-13 00:10:24
-	name: Evolving Wilds
-	image: 
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rule text: <sym-auto>T</sym-auto>, Sacrifice <atom-cardname><nospellcheck>Evolving Wilds</nospellcheck></atom-cardname>: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -1280,118 +1242,6 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2015-10-14 21:44:22
-	time modified: 2016-01-15 17:19:26
-	name: Blighted Woodland
-	image: 
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rule text:
-		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto> to your mana pool.
-		<sym-auto>3G</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice <atom-cardname><nospellcheck>Blighted Woodland</nospellcheck></atom-cardname>: Search your library for up to two basic land cards and put them onto the battlefield tapped. Then shuffle your library.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-10-14 21:45:33
-	time modified: 2015-10-14 21:47:12
-	card color: white, green, land, horizontal
-	name: Grasslands
-	indicator: colorless
-	image: 
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rule text:
-		<atom-cardname><nospellcheck>Grasslands</nospellcheck></atom-cardname> enters the battlefield tapped.
-		<sym-auto>T</sym-auto>, Sacrifice <atom-cardname><nospellcheck>Grasslands</nospellcheck></atom-cardname>: Search your library for a Forest or Plains card and put it onto the battlefield. Then shuffle your library.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-10-14 21:48:58
-	time modified: 2015-10-14 21:49:46
-	card color: red, green, land, horizontal
-	name: Mountain Valley
-	indicator: colorless
-	image: 
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rule text:
-		<atom-cardname><nospellcheck>Mountain Valley</nospellcheck></atom-cardname> enters the battlefield tapped.
-		<sym-auto>T</sym-auto>, Sacrifice <atom-cardname><nospellcheck>Mountain Valley</nospellcheck></atom-cardname>: Search your library for a Mountain or Forest card and put it onto the battlefield. Then shuffle your library.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-10-14 21:50:18
-	time modified: 2015-10-14 21:51:09
-	card color: blue, black, land, horizontal
-	name: Bad River
-	indicator: colorless
-	image: 
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rule text:
-		<atom-cardname><nospellcheck>Bad River</nospellcheck></atom-cardname> enters the battlefield tapped.
-		<sym-auto>T</sym-auto>, Sacrifice <atom-cardname><nospellcheck>Bad River</nospellcheck></atom-cardname>: Search your library for an Island or Swamp card and put it onto the battlefield. Then shuffle your library.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-10-14 21:51:15
-	time modified: 2015-10-14 21:53:43
-	card color: black, red, land, horizontal
-	name: Rocky Tar Pit
-	indicator: colorless
-	image: 
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rule text:
-		<atom-cardname><nospellcheck>Rocky Tar Pit</nospellcheck></atom-cardname> enters the battlefield tapped.
-		<sym-auto>T</sym-auto>, Sacrifice <atom-cardname><nospellcheck>Rocky Tar Pit</nospellcheck></atom-cardname>: Search your library for a Swamp or Mountain card and put it onto the battlefield. Then shuffle your library.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-10-14 21:51:15
-	time modified: 2015-10-14 21:52:12
-	card color: white, blue, land, horizontal
-	name: Flood Plain
-	indicator: colorless
-	image: 
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rule text:
-		<atom-cardname><nospellcheck>Flood Plain</nospellcheck></atom-cardname> enters the battlefield tapped.
-		<sym-auto>T</sym-auto>, Sacrifice <atom-cardname><nospellcheck>Flood Plain</nospellcheck></atom-cardname>: Search your library for a Plains or Island card and put it onto the battlefield. Then shuffle your library.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
 	time created: 2015-11-11 19:52:57
 	time modified: 2015-11-11 19:53:37
 	name: Wayfarer’s Bobble
@@ -1428,43 +1278,6 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2015-11-11 20:12:26
-	time modified: 2016-01-15 17:19:38
-	name: Thespian’s Stage
-	image: 
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rarity: rare
-	rule text:
-		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto> to your mana pool.
-		<sym-auto>2</sym-auto>, <sym-auto>T</sym-auto>: <atom-cardname><nospellcheck>Thespian’s Stage</nospellcheck></atom-cardname> becomes a copy of target land and gains this ability.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-11-11 20:20:04
-	time modified: 2017-04-23 00:29:44
-	name: Guided Exploration
-	casting cost: 3G
-	image: 
-	super type: <word-list-type>Sorcery</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rarity: rare
-	rule text:
-		Search your library for up to two basic land card and put one card found this way onto the battlefield tapped. Put the rest into your hand. Then shuffle your library.
-		If you control a legendary creature, you may search for three basic land cards and put two onto the battlefield tapped instead.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
 	time created: 2015-11-11 22:58:32
 	time modified: 2017-04-24 16:00:48
 	name: Motivating Speech
@@ -1479,27 +1292,6 @@ card:
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	illustrator: The Avengers
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2015-11-16 20:01:31
-	time modified: 2017-04-24 15:51:57
-	name: Visions of Failure
-	casting cost: 2BR
-	image: image44
-	super type: <word-list-type>Enchantment</word-list-type>
-	sub type: <word-list-enchantment></word-list-enchantment>
-	rarity: uncommon
-	rule text:
-		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
-		Enchanted creature cannot attack you or a planeswalker you control.
-		Enchanted creature cannot activate abilities and must attack each turn if able.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	illustrator: Avengers:Age of Ultron
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -1548,22 +1340,23 @@ card:
 		AV: Trying WUBRG reduction instead. I think it’s over powered, but I’d like to try it.
 		AV: Trying a version of Fury designed with the goal of helping to finish the game.
 	time created: 2015-09-28 21:02:09
-	time modified: 2017-04-24 14:54:36
+	time modified: 2017-04-27 16:06:39
 	card color: white
 	name: Nick Fury
 	casting cost: 3W
 	indicator: colorless
-	image: image46
+	image: image47
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Advisor</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		Legendary spells you cast cost <sym-auto>1</sym-auto> less.
+		<sym-auto>T</sym-auto>: The next legendary spell you cast this turn costs <sym-auto>2</sym-auto> less and can’t be countered.
 		<sym-auto>WUBRG</sym-auto>, <sym-auto>T</sym-auto>: Another target legendary creature you control has <kw-a><nospellcheck>vigilance</nospellcheck></kw-a> and <kw-a><nospellcheck>trample</nospellcheck></kw-a> and gets +X/+X until end of turn where X is the number of legendary permanents you control.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 2
 	card code text: 
+	illustrator: Captain America: The Winter Soldier
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -1610,14 +1403,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-04-17 12:13:06
-	time modified: 2017-04-24 13:50:14
-	name: HERO MURDER
+	time modified: 2017-04-25 13:03:52
+	name: Prey on the Powerless
 	casting cost: 3B
 	image: 
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment></word-list-enchantment>
 	rarity: rare
-	rule text: At the beginning of each player’s upkeep, that player may tap an untapped legendary creature they control. If they do, they choose target <error-spelling:en_us:/magic.mse-game/magic-words>nonlegendary</error-spelling:en_us:/magic.mse-game/magic-words> creature you don’t control. Destroy that creature.
+	rule text: At the beginning of each player’s upkeep, that player may tap an untapped legendary permanent they control. If they do, they choose target <error-spelling:en_us:/magic.mse-game/magic-words>nonlegendary</error-spelling:en_us:/magic.mse-game/magic-words> creature you don’t control. Destroy that creature.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -1711,7 +1504,7 @@ card:
 		AV: Added tweaks that were decided upon with OT and HT.
 		AV: Trying new version agreed upon with CD
 	time created: 2015-09-29 23:30:15
-	time modified: 2017-04-24 13:48:43
+	time modified: 2017-04-26 17:18:24
 	name: Ultron (Alt)
 	casting cost: 1UBR
 	image: image10
@@ -1721,7 +1514,7 @@ card:
 	rule text:
 		<kw-0><nospellcheck>Indestructible</nospellcheck></kw-0>, <kw-a><nospellcheck>First Strike</nospellcheck></kw-a>
 		As long as you control fewer than 10 other artifacts, <atom-legname><nospellcheck>Ultron <i-auto>(Alt)</i-auto></nospellcheck></atom-legname> isn’t an artifact or a creature.
-		<sym-auto>4</sym-auto>: Put a 1/1 Sentinel artifact creature token with <kw-a><nospellcheck>flying</nospellcheck></kw-a> onto the battlefield.
+		<sym-auto>4</sym-auto>: Create a 1/1 Sentinel artifact creature token with <kw-a><nospellcheck>flying</nospellcheck></kw-a>.
 	flavor text: <i-flavor></i-flavor>
 	power: 7
 	toughness: 6
@@ -1761,27 +1554,6 @@ card:
 	flavor text: <i-flavor></i-flavor>
 	power: 1
 	toughness: 1
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2017-04-23 00:17:55
-	time modified: 2017-04-24 16:12:42
-	name: Knight of the Reliquary
-	casting cost: 1GW
-	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Human</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: uncommon
-	rule text:
-		Knight of the Reliquary gets +1/+1 for each land card in your graveyard.
-		<sym-auto>T</sym-auto>, Sacrifice a Forest or Plains: Search your library for a land card, put it onto the battlefield, then shuffle your library.
-	flavor text: <i-flavor></i-flavor>
-	power: 2
-	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1871,133 +1643,6 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2017-04-23 00:24:13
-	time modified: 2017-04-23 00:24:33
-	name: Hero’s Downfall
-	casting cost: 1BB
-	image: 
-	super type: <word-list-type>Instant</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rarity: rare
-	rule text: Destroy target creature or planeswalker.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	super type 2: <word-list-type></word-list-type>
-	sub type 2: 
-	rule text 2: 
-	flavor text 2: <i-flavor></i-flavor>
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2017-04-23 00:26:19
-	time modified: 2017-04-23 12:03:57
-	name: Go for the Throat
-	casting cost: 1B
-	image: 
-	super type: <word-list-type>Instant</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rule text: Destroy target nonartifact creature.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2017-04-23 00:32:06
-	time modified: 2017-04-23 00:32:52
-	name: Seaside Citadel
-	image: 
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
-	rule text:
-		<atom-cardname><nospellcheck>Seaside Citadel</nospellcheck></atom-cardname> enters the battlefield tapped.
-		<sym-auto>T</sym-auto>: Add <sym-auto>G</sym-auto>, <sym-auto>W</sym-auto>, or <sym>U</sym> to your mana pool
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2017-04-23 00:33:00
-	time modified: 2017-04-23 00:33:33
-	name: Arcane Sanctum
-	image: 
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
-	rule text:
-		<atom-cardname><nospellcheck>Arcane Sanctum</nospellcheck></atom-cardname> enters the battlefield tapped.
-		<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto>, <sym-auto>U</sym-auto>, or <sym>B</sym> to your mana pool.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2017-04-23 00:33:37
-	time modified: 2017-04-23 00:34:11
-	name: Crumbling Necropolis
-	image: 
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
-	rule text:
-		<atom-cardname><nospellcheck>Crumbling Necropolis</nospellcheck></atom-cardname> enters the battlefield tapped.
-		<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto>, <sym-auto>B</sym-auto>, or <sym>R</sym> to your mana pool.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2017-04-23 00:34:15
-	time modified: 2017-04-23 00:34:43
-	name: Savage Lands
-	image: 
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
-	rule text:
-		<atom-cardname><nospellcheck>Savage Lands</nospellcheck></atom-cardname> enters the battlefield tapped.
-		<sym-auto>T</sym-auto>: Add <sym-auto>B</sym-auto>, <sym-auto>R</sym-auto>, or <sym>G</sym> to your mana pool.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2017-04-23 00:34:47
-	time modified: 2017-04-23 00:35:10
-	name: Jungle Shrine
-	image: 
-	super type: <word-list-type>Land</word-list-type>
-	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
-	rule text:
-		<atom-cardname><nospellcheck>Jungle Shrine</nospellcheck></atom-cardname> enters the battlefield tapped.
-		<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto>, <sym-auto>G</sym-auto>, or <sym>W</sym> to your mana pool.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-card:
-	has styling: false
-	notes: 
 	time created: 2017-04-23 12:09:42
 	time modified: 2017-04-23 12:09:59
 	name: Hero’s Demise
@@ -2032,18 +1677,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-04-23 12:17:03
-	time modified: 2017-04-24 14:57:46
+	time modified: 2017-04-26 16:49:18
 	name: Phil Coulson
 	casting cost: 3W
-	image: 
+	image: image33
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Advisor</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
-	rule text: <kw-A><i-auto><nospellcheck>Sidekick</nospellcheck></i-auto></kw-A> — Whenever a commander creature you control attacks or activates an ability, you may pay <sym-auto>1</sym-auto>. If you do, up to X target creatures you control get +1/+2 until end of turn where X is that commander’s power plus <atom-legname><nospellcheck>Phil <error-spelling:en_us:/magic.mse-game/magic-words>Coulson</nospellcheck></atom-legname>’s</error-spelling:en_us:/magic.mse-game/magic-words> power.
+	rule text: <kw-A><i-auto><nospellcheck>Sidekick</nospellcheck></i-auto></kw-A> — Whenever a commander creature you control attacks or activates an ability, you may pay <sym-auto>1</sym-auto>. If you do, create X 1/1 white soldier creature tokens where X is that commander’s power plus <atom-legname><nospellcheck>Phil <error-spelling:en_us:/magic.mse-game/magic-words>Coulson</nospellcheck></atom-legname>’s</error-spelling:en_us:/magic.mse-game/magic-words> power.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 2
 	card code text: 
+	illustrator: Agents of S.H.I.E.L.D.
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -2051,7 +1697,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2015-09-29 23:15:48
-	time modified: 2017-04-24 15:02:25
+	time modified: 2017-04-25 13:42:46
 	name: Falcon
 	casting cost: 3W
 	image: image26
@@ -2065,6 +1711,7 @@ card:
 	power: 3
 	toughness: 2
 	card code text: 
+	illustrator: Captain America: The Winter Soldier
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -2072,10 +1719,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-04-24 13:37:23
-	time modified: 2017-04-24 15:52:33
+	time modified: 2017-04-27 16:01:59
 	name: Jarvis
 	casting cost: 2U
-	image: 
+	image: image44
 	super type: <word-list-type>Legendary Artifact</word-list-type>
 	sub type: <word-list-artifact>AI</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
 	rarity: rare
@@ -2086,6 +1733,7 @@ card:
 	power: 
 	toughness: 
 	card code text: 
+	illustrator: Iron Man
 	copyright: 
 	image 2: 
 	copyright 2: 
@@ -2114,16 +1762,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2017-04-24 14:06:44
-	time modified: 2017-04-24 14:57:19
+	time modified: 2017-04-25 12:57:47
 	name: Red Sidekick
 	casting cost: 3R
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
-	rule text: <kw-A><i-auto><nospellcheck>Sidekick</nospellcheck></i-auto></kw-A> — Whenever a commander creature you control attacks or activates an ability, you may pay <sym-auto>1</sym-auto>. If you do, that commander deals damage to target creature or player equal to that creature’s power plus <atom-legname><nospellcheck>Red Sidekick</nospellcheck></atom-legname>’s power.
+	rule text: <kw-A><i-auto><nospellcheck>Sidekick</nospellcheck></i-auto></kw-A> — Whenever a commander creature you control attacks or activates an ability, you may pay <sym-auto>1</sym-auto>. If you do, <atom-legname><nospellcheck>Red Sidekick</nospellcheck></atom-legname> deals damage to target creature or player equal to that commander’s power plus <atom-legname><nospellcheck>Red Sidekick</nospellcheck></atom-legname>’s power.
 	flavor text: <i-flavor></i-flavor>
-	power: 3
+	power: 1
 	toughness: 3
 	card code text: 
 	copyright: 
@@ -2144,6 +1792,155 @@ card:
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-04-24 21:32:47
+	time modified: 2017-04-24 21:33:20
+	name: Arrest
+	casting cost: 2W
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		Enchanted creature can’t attack or block, and its activated abilities can’t be activated.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-04-25 12:52:37
+	time modified: 2017-04-25 13:44:57
+	name: Time Warp
+	casting cost: 3UU
+	image: image43
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: rare
+	rule text: Target player takes an extra turn after this one.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	illustrator: Dr Strange
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-04-25 16:10:38
+	time modified: 2017-04-25 16:13:36
+	card color: land, multicolor
+	name: Shimmering Grotto
+	indicator: colorless
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text:
+		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto> to your mana pool.
+		<sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add one mana of any color to your mana pool.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-04-25 16:12:42
+	time modified: 2017-04-25 16:13:29
+	card color: land, multicolor
+	name: Transguild Promenade
+	indicator: colorless
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text:
+		<atom-legname><nospellcheck>Transguild Promenade</nospellcheck></atom-legname> enters the battlefield tapped.
+		When <atom-legname><nospellcheck>Transguild Promenade</nospellcheck></atom-legname> enters the battlefield, sacrifice it unless you pay <sym-auto>1</sym-auto>.
+		<sym-auto>T</sym-auto>: Add one mana of any color to your mana pool.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-04-25 16:13:44
+	time modified: 2017-04-25 16:14:13
+	card color: land, multicolor
+	name: Unknown Shores
+	indicator: colorless
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text:
+		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto> to your mana pool.
+		<sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add one mana of any color to your mana pool.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-04-25 16:23:27
+	time modified: 2017-04-25 16:25:14
+	name: Chromatic Lantern
+	casting cost: 3
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rarity: uncommon
+	rule text:
+		Lands you control have “<sym-auto>T</sym-auto>: Add one mana of any color to your mana pool.”
+		<sym-auto>T</sym-auto>: Add one mana of any color to your mana pool.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-04-25 16:25:25
+	time modified: 2017-04-25 16:26:00
+	name: Commander’s Sphere
+	casting cost: 3
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rule text:
+		<sym-auto>T</sym-auto>: Add to your mana pool one mana of any color in your commander’s color identity.
+		Sacrifice <atom-legname><nospellcheck>Commander’s Sphere</nospellcheck></atom-legname>: Draw a card.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2017-04-25 16:29:53
+	time modified: 2017-04-25 16:30:22
+	name: Prophetic Prism
+	casting cost: 2
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rule text:
+		When <atom-legname><nospellcheck>Prophetic Prism</nospellcheck></atom-legname> enters the battlefield, draw a card.
+		<sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add one mana of any color to your mana pool.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
